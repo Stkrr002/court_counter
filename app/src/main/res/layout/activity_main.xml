@@ -1,0 +1,164 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEAM1"
+            android:layout_marginLeft="70dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEAM2"
+            android:layout_marginLeft="65dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       >
+        <TextView
+            android:id="@+id/team1score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_marginLeft="80dp"
+            android:textSize="60sp"
+            android:textColor="@color/black"
+             />
+
+        <TextView
+            android:id="@+id/team2score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="0"
+            android:textSize="60sp"
+            android:textColor="@color/black"
+            tools:ignore="InvalidId" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/t13"
+            android:onClick="team1plus3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+3 points"
+            android:padding="5dp"
+            android:layout_marginLeft="70dp"/>
+
+        <Button
+            android:id="@+id/t23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:onClick="team2plus3"
+            android:padding="5dp"
+            android:text="+3 points" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/t12"
+            android:onClick="team1plus2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+2 points"
+            android:padding="5dp"
+            android:layout_marginLeft="70dp"/>
+
+        <Button
+            android:id="@+id/t22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:onClick="team2plus2"
+            android:padding="5dp"
+            android:text="+2 points" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/t11"
+            android:onClick="team1plus1"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="70dp"
+            android:padding="5dp"
+            android:text="FREE THROW" />
+
+        <Button
+            android:id="@+id/t21"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:onClick="team2plus1"
+            android:padding="5dp"
+            android:text="FREE THROW" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/reset"
+        android:onClick="resetit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="40dp"
+        android:text="reset"
+        android:backgroundTint="#D50000"
+        tools:ignore="UsingOnClickInXml" />
+    <Button
+        android:id="@+id/show"
+        android:onClick="showit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:text="SHOW"
+        android:backgroundTint="#00C853"/>
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="RESULT WILL BE SHOWN HERE "
+        tools:ignore="HardcodedText"
+        android:paddingLeft="30dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="#E91E63"/>
+
+
+</LinearLayout>

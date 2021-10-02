@@ -4,7 +4,8 @@ This is my first android application.\
 Valid point(s) are +3,+2, and free throw which counts to be +1.\
 
 main activity.\
-![WhatsApp Image 2021-10-01 at 7 37 21 AM](https://user-images.githubusercontent.com/88109183/135701430-7f9c01b5-55a2-4760-8a35-d85007a9a5fc.jpeg\
+ ![WhatsApp Image 2021-10-01 at 7 37 21 AM](https://user-images.githubusercontent.com/88109183/135701615-c7099eb8-4789-4574-8019-31a7bcfe8ea0.jpeg)
+
 
 Points entered\
 ![WhatsApp Image 2021-10-01 at 7 37 21 AM (1)](https://user-images.githubusercontent.com/88109183/135701435-090e269c-8eca-4824-967e-1a26b0858af2.jpeg)\
